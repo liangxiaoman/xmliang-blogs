@@ -3,14 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: xmliang
-subtitle: ''
+title: 梁晓曼的博客
+subtitle: '梁晓曼的博客'
 description: ''
-keywords:
+keywords: '技术博客 PHP React 编程爱好者'
 author: xmliang
 # 语言 zh-CN / en
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 #  网站主URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
