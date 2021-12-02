@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 梁晓曼的博客
+title: 晓曼的博客
 subtitle: '梁晓曼的博客'
 description: ''
 keywords: '技术博客 PHP React 编程爱好者'
@@ -136,3 +136,9 @@ feed:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 图片懒加载
+lazyload:
+  enable: true
+  onlypost: true # 如果为 true，则只有文章或页面中的图像支持延迟加载，如果为 false，则站点的整个图像将使用延迟加载，但不包括来自CSS样式的背景图像。
+  loadingImg: /images/loading.gif # optional eg ./images/loading.gif
