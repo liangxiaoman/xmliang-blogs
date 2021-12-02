@@ -193,7 +193,7 @@ postInfo:
   wordCount: true # 文章字数统计
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
-  readCount: true # 文章阅读次数
+  readCount: false # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -631,3 +631,27 @@ bbtime:
  appId: # 你的appId
  appKey: # 你的appKey
  serverURLs: # https://你的api
+
+# 动态改变页面标签
+dynamicLabel:
+  enable: true # 开启为 true，关闭为 false
+
+# 鼠标点击烟花爆炸效果
+fireworks:
+  enable: false # 开启为 true，关闭为 false
+
+# 鼠标点击，文字浮层特效
+wordfloat:
+  enable: false # 开启为 true，关闭为 false
+
+# 页面樱花飘落动态特效
+sakura:
+  enable: false # 开启为 true，关闭为 false
+
+# 背景雪花飘落特效
+snow:
+  enable: true # 开启为 true，关闭为 false
+
+# 是否开启在 about 页面写我的简历
+writeCV:
+  enable: false # 开启为 true，关闭为 false

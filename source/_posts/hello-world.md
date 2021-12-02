@@ -1,13 +1,9 @@
 ---
 title: typora-vue-theme主题介绍
-date: 2021-12-01 16:14:16
-# author: 赵奇
-# img: /source/images/xxx.jpg
+author: xmliang
 top: true
 # 轮播
-# cover: true
-# coverImg: /images/1.jpg
-# password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+cover: false
 toc: false
 mathjax: false
 summary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
@@ -15,6 +11,10 @@ categories: Markdown
 tags:
   - Typora
   - Markdown
+date: 2021-12-01 16:14:16
+# img: /source/images/xxx.jpg
+# coverImg: /images/1.jpg
+# password: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

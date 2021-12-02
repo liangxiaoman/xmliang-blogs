@@ -31,6 +31,59 @@
     <script async src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.busuanzi) %>"></script>
     <% } %>
 
+
+    <!--  动态改变标签  -->
+    <% if (theme.dynamicLabel.enable) { %>
+        <script type="text/javascript">
+            var OriginTitile = document.title,
+                st;
+            document.addEventListener("visibilitychange", function () {
+                document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
+                    "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () {
+                    document.title = OriginTitile
+                }, 3e3))
+            })
+        </script>
+    <% } %>
+
+    <!--  鼠标点击烟花爆炸效果  -->
+    <% if (theme.fireworks.enable) { %>
+        <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
+        <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+        <script type="text/javascript" src="/js/fireworks.js"></script>
+    <% } %>
+
+    <!-- 鼠标点击，文字浮层特效 -->
+    <% if (theme.wordfloat.enable) { %>
+        <script type="text/javascript">
+            //只在桌面版网页启用特效
+            if ($(window).width() > 768) {
+                document.write('<script type="text/javascript" src="/js/wordfloat.js"><\/script>');
+            }
+        </script>
+    <% } %>
+
+    <!-- 页面樱花飘落动态特效 -->
+    <% if (theme.sakura.enable) { %>
+        <script type="text/javascript">
+            //只在桌面版网页启用特效
+            if ($(window).width() > 768) {
+                document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+            }
+        </script>
+    <% } %>
+
+    <!-- 背景雪花飘落特效 -->
+    <% if (theme.snow.enable) { %>
+        <script type="text/javascript">
+            //只在桌面版网页启用特效
+            if ($(window).width() > 768) {
+                document.write('<script type="text/javascript" src="/js/snow.js"><\/script>');
+            }
+        </script>
+    <% } %>
+
+
     <% if (theme.tidio.enable) { %>
         <script src="//code.tidio.co/<%- theme.tidio.public_key %>.js"></script>
         <script>
