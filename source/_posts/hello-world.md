@@ -2,7 +2,6 @@
 title: typora-vue-theme主题介绍
 author: xmliang
 top: true
-# 轮播
 cover: true
 toc: false
 mathjax: false
@@ -11,6 +10,7 @@ categories: Markdown
 tags:
   - Typora
   - Markdown
+abbrlink: edb93561
 date: 2021-12-01 16:14:16
 # img: /source/images/xxx.jpg
 # coverImg: /images/1.jpg
